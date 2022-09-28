@@ -7,7 +7,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 import utilities.TestBase;
 
-public class C02_SoftAssert extends TestBase {
+public class C02_HardAssert extends TestBase {
          /*
           Softassertion baslangic ve bitis satirlari arasindaki
           tum assertion'lari yapip
