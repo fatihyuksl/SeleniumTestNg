@@ -10,7 +10,7 @@ public class FaceebookPage {
         PageFactory.initElements(Driver.getDriver(),this);
     }
     @FindBy (id = "email")
-    public WebElement mailkutus;
+    public WebElement mailkutusu;
     @FindBy(id ="pass")
     public WebElement sifreKutusu;
     @FindBy(name = "login")
