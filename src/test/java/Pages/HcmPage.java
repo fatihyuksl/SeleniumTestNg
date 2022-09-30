@@ -21,7 +21,7 @@ public class HcmPage {
     @FindBy(id="btnSubmit")
     public WebElement LoginButtonu;
     @FindBy(xpath="//*[@class='username username-hide-on-mobile']")
-    public WebElement LoginKullanıcı;
+    public WebElement LoginKullanıcı;//
     @FindBy(id = "divMessageResult")
     public WebElement girisYapilamadiElementi;
 
