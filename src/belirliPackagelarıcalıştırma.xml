@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="istenen packageları çalıştırma">
+    <test name="package">
+        <packages>
+            <package name="tests.Day18"></package>
+
+        </packages>
+    </test>
+    <test name="başka class ">
+        <classes>
+            <class name="tests.day19.C03_PozitifTest">
+
+            </class>
+        </classes>
+    </test>
+</suite>
