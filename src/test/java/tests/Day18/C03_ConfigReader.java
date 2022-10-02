@@ -1,6 +1,6 @@
 package tests.Day18;
 
-import Pages.HcmPage;
+import Pages.HmcPage;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import utilities.ConfigReader;
@@ -11,7 +11,7 @@ public class C03_ConfigReader {
     public void test01() {
         //https://www.hotelmycamp.com/ adresine git  login butonuna bas
         Driver.getDriver().get(ConfigReader.getProperty("hmcUrl"));
-        HcmPage page = new HcmPage();
+        HmcPage page = new HmcPage();
         //test data username: manager ,
         page.login.click();
         //test data password : Manager1!

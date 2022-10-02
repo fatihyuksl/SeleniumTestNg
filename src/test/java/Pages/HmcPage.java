@@ -5,8 +5,8 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import utilities.Driver;
 
-public class HcmPage {
-    public HcmPage() {
+public class HmcPage {
+    public HmcPage() {
         PageFactory.initElements(Driver.getDriver(), this);
 
     }
@@ -22,6 +22,9 @@ public class HcmPage {
     public WebElement LoginButtonu;
     @FindBy(xpath="//*[@class='username username-hide-on-mobile']")
     public WebElement LoginKullanıcı;//
+
+    @FindBy(xpath = "//*[@class='username username-hide-on-mobile']")
+    public WebElement girisYapildi;
     @FindBy(id = "divMessageResult")
     public WebElement girisYapilamadiElementi;
 

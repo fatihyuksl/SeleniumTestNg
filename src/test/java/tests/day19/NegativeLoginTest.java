@@ -1,6 +1,6 @@
 package tests.day19;
 
-import Pages.HcmPage;
+import Pages.HmcPage;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import utilities.ConfigReader;
@@ -14,7 +14,7 @@ public class NegativeLoginTest {
     public void test01() {
         //1 ) Bir Class olustur : NegativeTest
         Driver.getDriver().get(ConfigReader.getProperty("hmcUrl"));
-        HcmPage page = new HcmPage();
+        HmcPage page = new HmcPage();
         page.login.click();
         //test data username: manager ,
         page.userNameTexti.sendKeys(ConfigReader.getProperty("hmcWrongUser"));
