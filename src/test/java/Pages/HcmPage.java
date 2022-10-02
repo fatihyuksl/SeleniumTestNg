@@ -19,7 +19,7 @@ public class HcmPage {
     @FindBy(id ="Password")
     public WebElement passwordTexti;
     @FindBy(id="btnSubmit")
-    public WebElement LoginButtonu;
+    public WebElement LoginButtonu;//
     @FindBy(xpath="//*[@class='username username-hide-on-mobile']")
     public WebElement LoginKullanıcı;//
     @FindBy(id = "divMessageResult")
