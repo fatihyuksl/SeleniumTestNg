@@ -26,7 +26,7 @@ public class C03_Priority extends TestBase {
 
         @Test
         public void techproedTesti() {
-            driver.get("https://www.techproeducation.com");//////
+            driver.get("https://www.techproeducation.com");//////git add .
             System.out.println(driver.getCurrentUrl());
     }
 }
