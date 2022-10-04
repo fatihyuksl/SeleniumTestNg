@@ -14,7 +14,7 @@ import java.time.Duration;
 public abstract class TestBase {
     protected   WebDriver driver;
     //Beforeclass ve AfterClass notasyonlarını kullnaırken JUnıt teki gibi static yapmaya gerek yoktur
-    @BeforeClass
+    @BeforeClass(groups = "grp1")
     public void setup()  {
         WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
@@ -22,7 +22,7 @@ public abstract class TestBase {
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
 
     }
-    @AfterClass
+    @AfterClass(groups = "grp1")
     public void tearDown() {
        // driver.close();
     }

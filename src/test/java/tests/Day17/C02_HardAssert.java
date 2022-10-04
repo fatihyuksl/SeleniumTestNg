@@ -14,7 +14,7 @@ public class C02_HardAssert extends TestBase {
           bitis satirina geldiginde bize buldugu tum hatalari rapor eder
           */
 
-    @Test
+    @Test (groups = "grp1")
     public void test01() {
         //1-amazon anasayfaya gidin
         driver.get("https://amazon.com");
