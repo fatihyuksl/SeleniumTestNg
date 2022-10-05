@@ -132,7 +132,7 @@ public class ReusableMethods {
         }
     }
 
-    static Faker faker;/////git add .4//ss
+    static Faker faker;/////git add .4//ssee
     static Actions actions;
     static SoftAssert softAssert;
     static Select select;
