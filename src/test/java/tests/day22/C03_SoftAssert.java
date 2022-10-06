@@ -1,14 +1,14 @@
-package tests.Day17;
+package tests.day22;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
-import org.testng.Assert;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 import utilities.TestBase;
+import utilities.TestBaseCross;
 
-public class C03_SoftAssert extends TestBase {
+public class C03_SoftAssert extends TestBaseCross {
     @Test
     public void test01() {
         SoftAssert softAssert = new SoftAssert();
