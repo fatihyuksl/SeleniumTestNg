@@ -10,9 +10,9 @@ public class AmazonPage {
         PageFactory.initElements(Driver.getDriver(), this);
     }
 
-    @FindBy(id = "twotabsearchtextbox")//
+    @FindBy(id = "twotabsearchtextbox")
     public WebElement aramakutusu;
 
     @FindBy(xpath = "//div[@class='a-section a-spacing-small a-spacing-top-small']")
-    public WebElement aramaSonucuElementi;//
+    public WebElement aramaSonucuElementi;
 }
