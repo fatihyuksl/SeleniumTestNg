@@ -55,7 +55,7 @@ public class Driver {
         return driver;
     }
     public static void closeDriver() {
-        if (driver != null) { // driver'a değer atanmışsa kapat/dq/g/q
+        if (driver != null) { // driver'a değer atanmışsa kapat/dq/g/qe
             driver.close();
             driver = null; // Kapandıktan sonra sonraki açmaları garanti altına almak için driver'i tekrar null yaptık
         }
