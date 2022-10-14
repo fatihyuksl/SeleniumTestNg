@@ -42,4 +42,8 @@ public class HmcPage {
 
     @FindBy(xpath = "//*[text()='OK']")
     public WebElement savabutton;
+    @FindBy(xpath = "//*[@id='DateStart']")
+    public WebElement sıkıntılıtarih;
+      @FindBy(xpath = "//button[text()='Save']")
+     public WebElement click;
 }

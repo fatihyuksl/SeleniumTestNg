@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 import utilities.ConfigReader;
 import utilities.Driver;
 
-public class C03_DataProvider {
+public class C01_DataProvider {
     @DataProvider
     public static Object[][] aranacakKelimeler() {
         return new Object[][]{{"java"},{"selenium"},{"samsung"},{"iphone"}};
