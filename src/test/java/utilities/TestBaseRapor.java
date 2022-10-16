@@ -24,7 +24,7 @@ public abstract class TestBaseRapor {
         //oluşturmak istediğimiz raporu (html formatında) başlatıyoruz, filePath ile dosya yolunu belirliyoruz.
         extentHtmlReporter = new ExtentHtmlReporter(filePath);
         extentReports.attachReporter(extentHtmlReporter);
-        // İstediğiniz bilgileri buraya ekeyebiliyorsunuz.
+        // İstediğiniz bilgileri buraya ekeyebiliyorsunuz./
         extentReports.setSystemInfo("Environment","QA");
         extentReports.setSystemInfo("Browser", ConfigReader.getProperty("browser")); // chrome, firefox
         extentReports.setSystemInfo("Automation Engineer", "Fuksel");
