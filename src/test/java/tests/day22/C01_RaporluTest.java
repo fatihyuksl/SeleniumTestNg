@@ -40,7 +40,7 @@ public class C01_RaporluTest extends TestBaseRapor {
         brcPage.passwordTextBox.sendKeys(ConfigReader.getProperty("brcValidPassword"));
         extentTest.info("Gecerli sifre yazildi");
 
-        //login butonuna tiklayin1234
+        //login butonuna tiklayin12345
         brcPage.ikinciLoginButonu.click();
         extentTest.info("Login butonuna tiklandi");
 
