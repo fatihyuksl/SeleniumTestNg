@@ -1,6 +1,6 @@
 package tests.day23;
 
-import Pages.BrcPage;
+import Pages.BrcPagee;
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
@@ -17,7 +17,7 @@ public class C02_Dataprovider {
 
     @Test(dataProvider="kullanıcılar")
     public void test01(String userEmail, String password) throws InterruptedException {
-        BrcPage page = new BrcPage();
+        BrcPagee page = new BrcPagee();
         //https://www.bluerentalcars.com/ adresine git
         Driver.getDriver().get(ConfigReader.getProperty("brcUrl"));
         //login butonuna bas

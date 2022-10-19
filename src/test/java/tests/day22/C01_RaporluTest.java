@@ -1,6 +1,6 @@
 package tests.day22;
 
-import Pages.BrcPage;
+import Pages.BrcPagee;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import utilities.ConfigReader;
@@ -25,7 +25,7 @@ public class C01_RaporluTest extends TestBaseRapor {
         //  https://www.bluerentalcars.com/ adresine git
         Driver.getDriver().get(ConfigReader.getProperty("brcUrl"));
         extentTest.info("Brc anasayfaya gidildi");
-        BrcPage brcPage = new BrcPage();
+        BrcPagee brcPage = new BrcPagee();
         //-https://www.bluerentalcars.com/ adresine git
 
         //      login butonuna bas
