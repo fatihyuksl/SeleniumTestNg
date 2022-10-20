@@ -29,7 +29,7 @@ public class C02_HardAssert extends TestBaseCross {
         //5-arama yapıldıgını test edin
         WebElement sonuc= driver.findElement(By.xpath("//*[@class='a-section a-spacing-small a-spacing-top-small']"));
         Assert.assertTrue(sonuc.isDisplayed());
-        //6-arama sonucunun Nutella içerdigini test edin1234567
+        //6-arama sonucunun Nutella içerdigini test edin12345678
         Assert.assertTrue(sonuc.getText().contains("Nutella"));
 
     }
