@@ -17,6 +17,7 @@ public class C01_ScreenShotReusableMethod {
         //ve sayfanın resmini alınız
         ReusableMethods.getScreenshot("hepsiburada");
         Driver.closeDriver();
+
     }
 
     @Test
@@ -26,7 +27,7 @@ public class C01_ScreenShotReusableMethod {
         //nutella aratınız
         AmazonPage amznpage=new AmazonPage();
         amznpage.aramakutusu.sendKeys("Nutella", Keys.ENTER);
-        // arama sonuc yazısı webelementinin resmini alınız
+        // arama sonuc yazısı webelementinin resmini alınız1
         ReusableMethods.getScreenshotWebElement("AramaSonucWe",amznpage.aramaSonucuElementi);
     }
 }
