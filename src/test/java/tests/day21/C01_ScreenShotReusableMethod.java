@@ -27,7 +27,8 @@ public class C01_ScreenShotReusableMethod {
         //nutella aratınız
         AmazonPage amznpage=new AmazonPage();
         amznpage.aramakutusu.sendKeys("Nutella", Keys.ENTER);
-        // arama sonuc yazısı webelementinin resmini alınızği12345
+        // arama sonuc yazısı webelementinin resmini alınızği12345"mv0612
+
 
         ReusableMethods.getScreenshotWebElement("AramaSonucWe",amznpage.aramaSonucuElementi);
     }
