@@ -21,7 +21,7 @@ public class C01_SmokePozitifTest {
         page classımızdaki locate'lerimize ulaşabiliriz
          */
             hmcPage.login.click();
-            //test data username: manager ,12
+            //test data username: manager ,123
             //test data password : Manager1!
             hmcPage.userNameTexti.sendKeys(ConfigReader.getProperty("user"));
             Actions actions = new Actions(Driver.getDriver());
