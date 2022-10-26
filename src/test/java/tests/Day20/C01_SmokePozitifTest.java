@@ -22,7 +22,7 @@ public class C01_SmokePozitifTest {
          */
             hmcPage.login.click();
             //test data username: manager ,
-            //test data password : Manager1!.
+            //test data password : Manager1!.1
             hmcPage.userNameTexti.sendKeys(ConfigReader.getProperty("user"));
             Actions actions = new Actions(Driver.getDriver());
             actions.sendKeys(Keys.TAB).sendKeys(ConfigReader.getProperty("password"))
